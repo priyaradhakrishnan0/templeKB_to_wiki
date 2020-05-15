@@ -1,0 +1,52 @@
+{{'{{Use dmy dates|date=June 2018}}
+{{Use Indian English|date=June 2018}}'}}
+{{'{{Infobox Hindu temple'}}
+| name                    = {{temple.key}}
+| image              =
+| alt          =
+| map_type        =
+| map_caption        =
+| coordinates        =
+| country            = India
+| state              =
+| district           =
+| location           = {{temple.Location}}
+| elevation_m        =
+| deity  = {{temple.Diety}}
+| facade_direction =
+| temple_tank        =
+| tower              =
+| festivals=
+| architecture       =
+| temple_quantity  =
+| monument_quantity=
+| inscriptions       =
+| creator            =
+| website            = {{temple.Website}}
+{{'}}'}}
+'''{{temple.key}}''' is a Hindu temple.
+{%- if temple.Diety is defined -%}
+	{%- if temple.Diety == 'Shiva' -%}
+		{{ 'The main deity is Lord [[Shiva]].' }}
+	{%- elif temple.Diety == 'Vishnu' -%}
+		{{ 'The temple is dedicated to [[Vishnu]]' }}
+	{%- elif temple.Diety == 'Muruga' -%}
+		{{ 'The temple is dedicated to [[Muruga]]' }}
+	{%- else -%}
+		{{ 'The temple is dedicated to 'temple.Diety }}
+
+	{%- endif -%}
+{%- endif -%}
+
+The temple is located at {{temple.Location}}.
+
+==Darsan==
+* Morning -
+* Evening -
+
+
+==References==
+{{Reflist}}
+
+[[Category:Vishnu temples]]
+[[Category:Hindu temples in Kerala]]

@@ -1,0 +1,52 @@
+{{'{{Use dmy dates|date=June 2018}}
+{{Use Indian English|date=June 2018}}'}}
+{{'{{Infobox Hindu temple'}}
+| name                    = {{temple.key}}
+| image              =
+| alt          =
+| map_type        =
+| map_caption        =
+| coordinates        =
+| country            = India
+| state              =
+| district           =
+| location           = {{temple.Location}}
+| elevation_m        =
+| deity  = {{temple.Diety}}
+| facade_direction =
+| temple_tank        =
+| tower              =
+| festivals=
+| architecture       =
+| temple_quantity  =
+| monument_quantity=
+| inscriptions       =
+| creator            =
+| website            = {{temple.Website}}
+{{'}}'}}
+{{temple.Location}} നഗരത്തിലെ ചരിത്രപ്രസിദ്ധമായ {{temple.Diety}}  ക്ഷേത്രമാണ് {{temple.key}} ക്ഷേത്രം.
+ 
+{%- if temple.Diety is defined -%}
+	{%- if temple.Diety == 'Shiva' -%}
+		{{ 'ഈ ക്ഷേത്രത്തിലെ മുഖ്യപ്രതിഷ്ഠ ശിവനണ്.' }}
+	{%- elif temple.Diety == 'Vishnu' -%}
+		{{ 'ഈ ക്ഷേത്രത്തിലെ മുഖ്യപ്രതിഷ്ഠ മഹാവിഷ്ണുവാണ്.' }}
+	{%- elif temple.Diety == 'Muruga' -%}
+		{{ 'ഈ ക്ഷേത്രത്തിലെ മുഖ്യപ്രതിഷ്ഠ മുരുകനാണ്.' }}
+	{%- else -%}
+		{{['ഈ ക്ഷേത്രത്തിലെ മുഖ്യപ്രതിഷ്ഠ ',temple.Diety, ' ആണെന്ന് കരുതപ്പെടുന്നു.']|join(' ')|string }}
+
+	{%- endif -%}
+{%- endif -%}
+
+
+==Darsan==
+* Morning -
+* Evening -
+
+
+==References==
+{{Reflist}}
+
+[[Category:Vishnu temples]]
+[[Category:Hindu temples in Kerala]]
