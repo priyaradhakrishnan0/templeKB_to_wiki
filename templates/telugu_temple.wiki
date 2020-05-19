@@ -1,0 +1,54 @@
+{{'{{Use dmy dates|date=June 2018}}
+{{Use Indian English|date=June 2018}}'}}
+{{'{{Infobox Hindu temple'}}
+| name                    = {{temple.key}} 
+| image              = 
+| alt          =
+| map_type        = 
+| map_caption        = 
+| coordinates        = 
+| country            = India
+| state              = 
+| district           = 
+| location           = {{temple.Location}}
+| elevation_m        =
+| deity  = {{temple.Diety}}
+| facade_direction = 
+| temple_tank        = 
+| tower              = 
+| festivals= 
+| architecture       = 
+| temple_quantity  =
+| monument_quantity=
+| inscriptions       =
+| creator            =
+| website            = {{temple.Website}}
+{{'}}'}}
+'''{{temple.key}}''' ఒక హిందూ దేవాయలం. 
+{%- if temple.Diety is defined -%}
+	{%- if temple.Diety == 'Shiva' -%}
+		{{ ['ఈ ఆలయం [[శివుడు]]కి అంకితం చేయబడింది.']|join(' ')|string }}
+	{%- elif temple.Diety == 'Vishnu' -%}
+		{{ ['ఈ ఆలయం [[విష్ణువు]]కి అంకితం చేయబడింది.']|join(' ')|string }}
+	{%- elif temple.Diety == 'Muruga' -%}
+		{{ ['ఈ ఆలయం [[మురుగన్]]కి అంకితం చేయబడింది.']|join(' ')|string }}
+	{%- else -%}
+		{{ ['ఈ ఆలయం', temple.Diety, 'కి అంకితం చేయబడింది.']|join(' ')|string }}
+
+	{%- endif -%}
+{%- endif -%}
+
+The temple is located at {{temple.Location}}.
+
+==దర్శన సమయం==
+* ఉదయం- 
+* సాయంత్రం- 
+
+
+==మూలాలు==
+{{Reflist}}
+
+[[వర్గం :హిందూ దేవాలయాలు]]
+[[వర్గం:వైష్ణవ దివ్యక్షేత్రాలు]]
+[[వర్గం:కేరళ దేవాలయాలు]]
+
