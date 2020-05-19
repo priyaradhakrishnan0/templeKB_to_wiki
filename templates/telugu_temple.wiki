@@ -38,7 +38,7 @@
 	{%- endif -%}
 {%- endif -%}
 
-The temple is located at {{temple.Location}}.
+ఈ పుణ్యక్షేత్రం {{temple.Location}} లో ఉంది.
 
 ==దర్శన సమయం==
 * ఉదయం- 
